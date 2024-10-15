@@ -1,0 +1,22 @@
+.tshirt-store {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .tshirt {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .tshirt img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .out-of-stock {
+    color: red;
+    font-weight: bold;
+  }
